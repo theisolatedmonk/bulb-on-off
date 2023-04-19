@@ -1,8 +1,8 @@
 const blubImg = document.getElementById("bulbimg")
 const switchbtn = document.getElementById("switchbutton")
 
-const imgBlubOff = './image/bulb_off-removebg.png'
-const imgBlubOn = './image/bulb_on-removebg.png'
+const imgBlubOff = './image/8czr7ad7i-removebg-preview.png'
+const imgBlubOn = './image/8czr7ad7i.png'
 
 let bulb = false
 let btn = false
@@ -26,6 +26,7 @@ function togggleImg() {
 
 function togggleSwitch() {
     btn = !btn
-    switchbtn.innerHTML = btn ? "On" : "Off"
+    switchbtn.innerHTML = btn ? "ON" : "OFF"
+    switchbtn.style.backgroundColor = btn ? "red" : "Green"
 
 }
