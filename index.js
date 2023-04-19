@@ -27,6 +27,6 @@ function togggleImg() {
 function togggleSwitch() {
     btn = !btn
     switchbtn.innerHTML = btn ? "ON" : "OFF"
-    switchbtn.style.backgroundColor = btn ? "red" : "Green"
+    switchbtn.style.backgroundColor = btn ? "Green" : "red"
 
 }
