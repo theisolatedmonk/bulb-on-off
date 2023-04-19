@@ -4,8 +4,8 @@ const switchbtn = document.getElementById("switchbutton")
 const imgBlubOff = './image/8czr7ad7i-removebg-preview.png'
 const imgBlubOn = './image/8czr7ad7i.png'
 
-let bulb = false
-let btn = false
+let bulb = true
+let btn = true
 togggleImg()
 
 
